@@ -1,0 +1,87 @@
+
+# =================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# =================================
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# =================================
+# PYTHON CACHE FILES
+# =================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =================================
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.*
+
+# =================================
+# CHROMADB DATA
+# =================================
+backend/chroma_db/*
+!backend/chroma_db/.gitkeep
+
+# =================================
+# UPLOADED DOCUMENTS
+# =================================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# =================================
+# NODE.JS DEPENDENCIES
+# =================================
+frontend/node_modules/
+node_modules/
+
+# =================================
+# FRONTEND BUILD OUTPUT
+# =================================
+frontend/dist/
+frontend/dist-widget/
+frontend/build/
+
+# =================================
+# LOGS
+# =================================
+*.log
+logs/
+
+# =================================
+# IDE / EDITOR FILES
+# =================================
+.vscode/
+.idea/
+
+# =================================
+# OPERATING SYSTEM FILES
+# =================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =================================
+# TESTING / COVERAGE
+# =================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =================================
+# TEMPORARY FILES
+# =================================
+*.tmp
+*.temp
+*.swp
+
+# KNOWLEDGE BASE
+# =================================
+backend/knowledge_base/

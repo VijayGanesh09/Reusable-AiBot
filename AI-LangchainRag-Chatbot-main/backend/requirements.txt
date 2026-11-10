@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+python-dotenv
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+chromadb
+sentence-transformers
+pypdf
+python-docx
+pip freeze > requirements.txt
